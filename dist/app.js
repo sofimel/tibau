@@ -19,7 +19,9 @@ const drinks = [
   { name: "Xeque Mate", lines: ["Xeque", "Mate"], color: "#ffab84" },
   { name: "Vodka", lines: ["Vodka"], color: "#c0baff" },
   { name: "Ypióca Guaraná", lines: ["Ypióca", "Guaraná"], color: "#f7a7d6" },
-  { name: "Lima Limão", lines: ["Lima", "Limão"], color: "#a9e89b" }
+  { name: "Lima Limão", lines: ["Lima", "Limão"], color: "#a9e89b" },
+  { name: "Champanhe", lines: ["Champanhe"], color: "#f7a7d6" },
+  { name: "Bebida surpresa", lines: ["Bebida", "Surpresa"], color: "#ffe179" }
 ];
 const sector = 360 / drinks.length;
 const wheel = document.getElementById("wheel");
